@@ -1,2 +1,0 @@
-<A id=foclnk href="" target=_blank><IMG id=focpic style="FILTER: RevealTrans ( duration = 1£¬transition=23 ); VISIBILITY: visible; POSITION: absolute" height=210 alt="" hspace=4 src="[field:litpic/]" width=310 vspace=2></A> 
-<DIV class="" id=fttltxt style="MARGIN-TOP: 212px; FLOAT: left; WIDTH: 318px; TEXT-ALIGN: center"><A href="[field:arcurl/]" target="_blank">[field:title function='html2text(@me)'/]</A></DIV>

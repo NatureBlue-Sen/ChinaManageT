@@ -1,1 +1,0 @@
-<DIV class="thubpic" id="tmb[field:global name=autoindex runphp='yes']@me=@me-1;[/field:global]" onmouseover="setfoc([field:global name=autoindex runphp='yes']@me=@me-1;[/field:global]);" onmouseout="playit();"><IMG height="42" alt="[field:title function='html2text(@me)'/]" src="[field:litpic/]" width="56" border="0"></DIV>

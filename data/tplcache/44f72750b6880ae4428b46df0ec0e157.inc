@@ -1,1 +1,0 @@
-{dede:include filename="head.htm"/}

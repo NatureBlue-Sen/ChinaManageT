@@ -1,2 +1,0 @@
-<table width="100%" border="0" cellpadding="0" cellspacing="0"  class="line-i">
-				  <tr><td class="line-i"><img src="[field:global.cfg_templeturl/]/skin/images/ico.gif" border="0"> <a href="[field:arcurl/]">[field:title/]</a></td><td align="right"  class="line-i">[<font color=red>[field:click/]</font>]</td></tr></table>
