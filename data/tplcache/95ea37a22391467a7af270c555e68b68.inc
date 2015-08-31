@@ -1,0 +1,2 @@
+¡¤<a href="[field:arcurl /]" title="[field:fulltitle function='html2text(@me)'/]" target="_blank">[field:title /]<br />
+	 <div align="right">[field:pubdate function="MyDate('m-d',@me)"/]&nbsp;&nbsp;</a></div>

@@ -1,0 +1,19 @@
+<?php
+$z[0]=Array("field","公安部通报2008年车辆管理所等级",0,71);
+$z[0][4]['name']="keywords";
+$z[1]=Array("field","公安部通报2008年车辆管理所等级评定情况[暂无简介]",73,165);
+$z[1][4]['name']="description";
+$z[2]=Array("field","公安部通报2008年车辆管理所等级评定情况",167,243);
+$z[2][4]['name']="title";
+$z[3]=Array("field","",245,284);
+$z[3][4]['name']="writer";
+$z[4]=Array("field","",286,325);
+$z[4][4]['name']="source";
+$z[5]=Array("field","",327,367);
+$z[5][4]['name']="pubdate";
+$z[6]=Array("field","<P><FONT class=article>2008年，各地公安机关严格按照《车辆管理所等级评定办法》和《车辆管理所等级评定方法与标准》等有关规定，认真开展车辆管理所等级评定。公安部采取网络测评、暗访检查、抽考民警、抽阅档案、走访群众等方式，对各省、自治区、直辖市公安厅、局申报的一等车辆管理所和全国一等县级车辆管理所进行了考评，并对其他等级车辆管理所进行了复核。全国共评出一等车辆管理所18个、二等车辆管理所120个、三等车辆管理所195个、四等车辆管理所17个、等外车辆管理所3个、全国一等县级车辆管理所16个。</FONT></P><P><FONT class=article>　　一、由公安部评定的一等车辆管理所（共18个，按名次排列） </FONT></P><P><FONT class=article>　　北京、成都、杭州、南京、昆明、宁波、武汉、临沂、马鞍山、廊坊、苏州、曲靖、沈阳、青岛、阜新、红河、新乡、安顺 </FONT></P><P><FONT class=article>　　二、由省、自治区、直辖市公安厅、局评定并经公安部复核的二、三、四等和等外车辆管理所（按行政区划排列） </FONT></P><P><FONT class=article>　　（一）二等车辆管理所（共120个） </FONT></P><P><FONT class=article>　　河北：石家庄、唐山、邯郸、保定、衡水 </FONT></P><P><FONT class=article>　　山西：长治、朔州、晋中 </FONT></P><P><FONT class=article>　　内蒙古：呼和浩特、包头、乌海 </FONT></P><P><FONT class=article>　　辽宁：大连、营口、盘锦 </FONT></P><P><FONT class=article>　　吉林：长春、吉林 </FONT></P><P><FONT class=article>　　黑龙江：牡丹江、大庆、双鸭山 </FONT></P><P><FONT class=article>　　上海 </FONT></P><P><FONT class=article>　　江苏：无锡、常州、南通、镇江 </FONT></P><P><FONT class=article>　　浙江：温州、湖州、嘉兴、金华、台州 </FONT></P><P><FONT class=article>　　安徽：合肥、芜湖、蚌埠、淮北、铜陵、安庆 </FONT></P><P><FONT class=article>　　福建：福州、莆田、泉州、厦门、漳州、龙岩、三明、南平、宁德 </FONT></P><P><FONT class=article>　　江西：南昌、宜春、上饶、萍乡 </FONT></P><P><FONT class=article>　　山东：淄博、东营、烟台、潍坊、济宁、威海、日照、滨州、德州 </FONT></P><P><FONT class=article>　　河南：郑州、开封、洛阳、焦作、驻马店 </FONT></P><P><FONT class=article>　　湖北：十堰、宜昌、襄樊、鄂州、荆门、孝感 </FONT></P><P><FONT class=article>　　湖南：长沙、常德、娄底 </FONT></P>",369,2468);
+$z[6][4]['name']="body";
+$z[7]=Array("field","",2470,2509);
+$z[7][4]['name']="litpic";
+
+?>

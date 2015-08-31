@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templeturl/}/skin/css/Css0.Css" rel="stylesheet" type="text/css" />
+<script language = "JavaScript" src="{dede:global.cfg_templeturl/}/skin/js/Font.js"></script>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<table width="1002"  align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="688" valign="top"><div class="mBottom"><table width="662" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><img src="{dede:global.cfg_templeturl/}/skin/images/leftBox_top.gif" width="662" height="9" /></td>
+      </tr>
+      <tr>
+        <td align="center" valign="top" background="{dede:global.cfg_templeturl/}/skin/images/leftBox_bg.gif">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="6%" align="center"><img src="{dede:global.cfg_templeturl/}/skin/images/ico1.gif" width="21" height="16" align="absmiddle" /></td>
+            <td width="94%" height="26" align="left" class="cPage">位置： {dede:field name='position'/} 正文  [ <SCRIPT LANGUAGE="Javascript">
+<!--
+var Words ="%u8D44%u6E90%u63D0%u4F9B"
+function OutWord()
+{
+var NewWords;
+NewWords = unescape(Words);
+document.write(NewWords);
+} 
+OutWord();
+// -->
+</SCRIPT>：<a href=http://%62%62%73%2E%67%6F%70%65%2E%63%6E target="_blank">
+<SCRIPT LANGUAGE="Javascript">
+<!--
+var Words ="%u72D7%u6251%u6E90%u7801%u793E%u533A"
+function OutWord()
+{
+var NewWords;
+NewWords = unescape(Words);
+document.write(NewWords);
+} 
+OutWord();
+// -->
+</SCRIPT>
+</a> ] </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center"><img src="{dede:global.cfg_templeturl/}/skin/images/leftBox_line.gif" width="639" height="7" /></td>
+            </tr>
+        </table>
+		<table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center" valign="middle"><h1>{dede:field.title/}</h1></td>
+      </tr>
+      <tr>
+        <td height="40" class="titleLine2">作者：{dede:field.writer/}	  来源：{dede:field.source/}
+	  关注： <script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}" type='text/javascript' language="javascript"></script>
+	 时间：{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}
+	  <input type="button" style='height:16' value='小' title='把正文字体缩小' onclick="fontSize('m','ArticleBody')"/> <input type="button" style='height:16' value='大' title='把正文字体扩大' onclick="fontSize('b','ArticleBody')"/> <input type="button" style='height:16' value='简' title='转为简体中文模式' onclick="bodytojt('ArticleBody')"/> <input style='height:16' type="button" value='繁' title='转为繁体中文模式' onclick="bodytoft('ArticleBody')"/></td>
+      </tr>
+	  <tr>
+	  <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="5" style="table-layout:fixed;word-break:break-word">
+              <tr> 
+                <td valign="top"  align="left">
+				<table border="0" align="left" cellpadding="10" cellspacing="0">
+                    <tr>
+                      <td></td>
+                    </tr>
+                  </table>
+				  <div class="Content" id="ArticleBody" >
+				   {dede:field.body/}
+					</div></td>
+              </tr>		  
+			<tr>
+              <td align="center" valign="middle" class="cPage">
+			  <div id="showpage" class="showpage">
+				{dede:pagebreak/}
+			  </div></td>
+            </tr>
+            </table></td>
+		</tr>
+			<tr><td height="60" align="right" class="blue">【<a href="javascript:window.print()">打印此文</a>】 【<a href="javascript:window.close();">关闭窗口</a>】【<a href="#">返回顶部</a>】 [ <SCRIPT LANGUAGE="Javascript">
+<!--
+var Words ="%u8D44%u6E90%u63D0%u4F9B"
+function OutWord()
+{
+var NewWords;
+NewWords = unescape(Words);
+document.write(NewWords);
+} 
+OutWord();
+// -->
+</SCRIPT>：<a href=http://%62%62%73%2E%67%6F%70%65%2E%63%6E target="_blank">
+<SCRIPT LANGUAGE="Javascript">
+<!--
+var Words ="%u72D7%u6251%u6E90%u7801%u793E%u533A"
+function OutWord()
+{
+var NewWords;
+NewWords = unescape(Words);
+document.write(NewWords);
+} 
+OutWord();
+// -->
+</SCRIPT>
+</a> 】</td>
+			</tr>
+    </table>
+		<div class="nextBox">
+	<table width="649" border="0" cellspacing="0" cellpadding="0" background="{dede:global.cfg_templeturl/}/skin/images/nextlast.gif">
+  <tr>
+    <td width="345" height="33" align="left" class="cPage">·{dede:prenext get='pre'/}</td>
+    <td width="304" align="left" class="cPage">·{dede:prenext get='next'/}</td>
+  </tr>
+</table>
+</div>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="50%" align="center" valign="top"><table width="96%" border="0" cellspacing="0" cellpadding="0"  class="rightBox">
+            <tr>
+              <td height="26" align="left" class="rightMenuTop rightTitle">相关文章</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+			    <div class="newsBoxp">
+				{dede:likearticle row='5' orderby='rand' titlelen='40'}
+				  <table width="100%" border="0" cellpadding="0" cellspacing="0"  class="line-i">
+				  <tr><td class="line-i"><img src="[field:global.cfg_templeturl/]/skin/images/ico.gif" border="0"> <a href="[field:arcurl/]">[field:title/]</a></td><td align="right"  class="line-i">[<font color=red>[field:click/]</font>]</td></tr></table>
+				  {/dede:likearticle}
+				  </div></td>
+            </tr>
+          </table></td>
+          <td width="50%" align="center" valign="top"><table width="96%" border="0" cellspacing="0" cellpadding="0"  class="rightBox">
+            <tr>
+              <td height="26" align="left" class="rightMenuTop rightTitle">推荐文章</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+			  <div class="newsBoxp"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="line-i">
+	  {dede:arclist row=5 flag='c' titlelen='40'}		  
+<tr><td align="left"  class="line-i"><img src="[field:global.cfg_templeturl/]/skin/images/ico.gif"/><a href="[field:arcurl/]" title="标题：[field:fulltitle function='html2text(@me)'/]
+作者：[field:writer /]
+更新：[field:pubdate function='GetDateTimeMK(@me)'/]
+点击：[field:click/]" target="_blank">[field:title/]</a></td>
+<td align="right"  class="line-i"><font color="#999999">[</font><font color="#ff0033">[field:click/]</font><font color="#999999">]</font></td></tr>
+   {/dede:arclist}
+</table></div></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+	  </td>
+      </tr>
+      <tr>
+        <td><img src="{dede:global.cfg_templeturl/}/skin/images/leftBox_bottom.gif" width="662" height="10" /></td>
+      </tr>
+    </table></div></td>
+	
+    <td width="312" valign="top">
+	<div class="mBottom"><table width="299" border="0" align="center" cellpadding="0" cellspacing="0" class="rightBox">
+      <tr>
+        <td height="30" class="rightMenuTop"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="11%" align="center"><img src="{dede:global.cfg_templeturl/}/skin/images/ico2.gif" width="9" height="10" /></td>
+            <td width="89%" class="rightTitle">最新图文</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="center" background="{dede:global.cfg_templeturl/}/skin/images/rightBox_bg.gif"><table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"><tr valign="top">
+<script type="text/javascript">
+<!--
+var AImgNhYCl29922660=new Array();
+var AImgNhYCl29922660link=new Array();
+var AImgNhYCl29922660title=new Array();
+var adNumNhYCl29922660=0;
+{dede:arclist flag='f' row='5' typeid='all'}
+AImgNhYCl29922660link[[field:global name=autoindex runphp='yes']@me=@me-1;[/field:global]]="[field:arcurl/]";
+AImgNhYCl29922660[[field:global name=autoindex runphp='yes']@me=@me-1;[/field:global]]="[field:litpic/]";
+AImgNhYCl29922660title[[field:global name=autoindex runphp='yes']@me=@me-1;[/field:global]]="[field:title function='html2text(@me)'/]";
+{/dede:arclist}
+var preloadimgNhYCl29922660=new Array();
+for (i=1;i<AImgNhYCl29922660.length;i++){
+preloadimgNhYCl29922660[i]=new Image();
+preloadimgNhYCl29922660[i].src=AImgNhYCl29922660[i];}
+function setNhYCl29922660Transition()
+{
+if (document.all){
+AImgNhYCl29922660rotator.filters.revealTrans.Transition=Math.floor(Math.random()*23);
+AImgNhYCl29922660rotator.filters.revealTrans.apply();
+}
+}
+function playNhYCl29922660Transition()
+{
+if (document.all)
+AImgNhYCl29922660rotator.filters.revealTrans.play()
+}
+function nextNhYCl29922660Img()
+{
+if(adNumNhYCl29922660<AImgNhYCl29922660.length-1)adNumNhYCl29922660++ ;
+else adNumNhYCl29922660=0;
+setNhYCl29922660Transition();
+document.images.AImgNhYCl29922660rotator.src=AImgNhYCl29922660[adNumNhYCl29922660];
+playNhYCl29922660Transition();
+titleNhYCl29922660.innerHTML="<A href='" + AImgNhYCl29922660link[adNumNhYCl29922660] + "'>" + AImgNhYCl29922660title[adNumNhYCl29922660] +"</a>";
+theTimer=setTimeout("nextNhYCl29922660Img()", 5000);
+}
+function jump2NhYCl29922660url()
+{
+jumpUrl=AImgNhYCl29922660link[adNumNhYCl29922660];
+jumpTarget="_blank";
+if (jumpUrl != ''){
+if (jumpTarget != '')window.open(jumpUrl,jumpTarget);
+else location.href=jumpUrl;
+}
+}
+function displayNhYCl29922660Msg()
+{
+status=AImgNhYCl29922660link[adNumNhYCl29922660];
+document.returnValue = true;
+}
+//-->
+</script>
+{dede:arclist flag='f' row='1' typeid='all'}
+<td align="center"  class="line-i">
+<a onmouseover="displayNhYCl29922660Msg();return document.returnValue;" href="javascript:jump2NhYCl29922660url();"><img style='FILTER: revealTrans(duration=2,transition=20)' width='299' height='226' border='0' src='[field:litpic/]' name='AImgNhYCl29922660rotator' alt="" /></a>
+</td>
+{/dede:arclist}
+</tr><tr><td id="titleNhYCl29922660" align="center"  class="line-i"></td>
+<script type="text/javascript">titleNhYCl29922660.innerHTML="<A href='" + AImgNhYCl29922660link[0] + "'>" + AImgNhYCl29922660title[0] +"</a>";setTimeout("nextNhYCl29922660Img()", 3000);
+</script></tr></table></td>
+      </tr>
+      <tr>
+        <td><img src="{dede:global.cfg_templeturl/}/skin/images/rightBox_bottom.gif" width="299" height="9" /></td>
+      </tr>
+    </table></div>
+	<div class="mBottom">
+	<table width="299" border="0" align="center" cellpadding="0" cellspacing="0" class="rightBox">
+      <tr>
+        <td height="8" ><img src="{dede:global.cfg_templeturl/}/skin/images/rightBox_top.gif" width="299" height="8" /></td>
+      </tr>
+      <tr>
+        <td  align="left" valign="top" background="{dede:global.cfg_templeturl/}/skin/images/rightBox_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="15%" align="center"><img src="{dede:global.cfg_templeturl/}/skin/images/rightSearch.gif" /></td>
+            <td width="85%" align="left">
+		<table border="0" cellpadding="0" cellspacing="0">
+	<form  name="formsearch" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+	<tr>
+	  <td height="28" align="left" >
+	   <input type="hidden" name="kwtype" value="0" />
+	   <input type="text" name="q"size="25"  maxlength="60" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" /><br /><br />
+	   
+		  <select name="searchtype" class="search-option" id="search-option">
+               <option value="title" selected='1'>检索标题</option>
+               <option value="titlekeyword">智能模糊</option>
+           </select>
+	   <input type="submit" name="Submit"  value="搜索" /></td>
+	</tr>
+</form></table>		
+			</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><img src="{dede:global.cfg_templeturl/}/skin/images/rightBox_bottom.gif" width="299" height="9" /></td>
+      </tr>
+    </table>
+	</div>
+	
+	<div class="mBottom"><table width="299" border="0" align="center" cellpadding="0" cellspacing="0" class="rightBox">
+      <tr>
+        <td height="30" class="rightMenuTop"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="11%" align="center"><img src="{dede:global.cfg_templeturl/}/skin/images/ico2.gif" width="9" height="10" /></td>
+            <td width="89%" class="rightTitle">热点导读</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="center" background="{dede:global.cfg_templeturl/}/skin/images/rightBox_bg.gif">
+		<div class="hotnews"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="line-i">
+		 {dede:arclist row=10 orderby=click titlelen='40' typeid='all'}
+<tr><td align="left"  class="line-i"><a href="[field:arcurl/]"
+  title="标题：[field:fulltitle function='html2text(@me)'/]
+作者：[field:writer /]
+更新：[field:pubdate function='GetDateTimeMK(@me)'/]
+点击：[field:click/]" target="_blank">[field:title/]</a></td></tr>
+      {/dede:arclist}
+</table></div></td>
+      </tr>
+      <tr>
+        <td><img src="{dede:global.cfg_templeturl/}/skin/images/rightBox_bottom.gif" width="299" height="9" /></td>
+      </tr>
+    </table></div>
+	</td>
+  </tr>
+</table>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

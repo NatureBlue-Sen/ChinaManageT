@@ -1,0 +1,337 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link href="{dede:global.cfg_templeturl/}/skin/css/Css0.Css" rel="stylesheet" type="text/css" />
+<SCRIPT language="javascript" src="{dede:global.cfg_templeturl/}/skin/js/newsPhoto.js"></SCRIPT>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="mainBox">
+<table width="987" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+  <tr>
+    <td width="184" valign="top"><table width="184" border="0" align="center" cellpadding="0" cellspacing="0" class="leftBg">
+	{dede:channelartlist typeid='21,10000'}
+      <tr>
+        <td class="annbg">{dede:field name='typename'/}</td>
+      </tr>
+      <tr>
+        <td height="200" align="left" valign="middle">
+		<MARQUEE id=scrollarea onmouseover=this.stop(); onmouseout=this.start(); scrollAmount=1 scrollDelay=0 direction=up  height=170>
+	<div class="annou">
+	  {dede:arclist titlelen='60' row='8'}
+	·<a href="[field:arcurl /]" title="[field:fulltitle function='html2text(@me)'/]" target="_blank">[field:title /]<br />
+	 <div align="right">[field:pubdate function="MyDate('m-d',@me)"/]&nbsp;&nbsp;</a></div>
+      {/dede:arclist}
+   </div>
+   </MARQUEE></td>
+      </tr>
+	   {/dede:channelartlist}  
+	   {dede:channelartlist typeid='6,10000'}
+      <tr>
+        <td class="leftTitle1"><a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a></td>
+      </tr>
+      <tr>
+        <td height="230" align="left" valign="top" class="leftBottomBg">
+		<div class="downnews">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" class="line-i">
+			 {dede:arclist titlelen='26' row='8'}
+				<tr><td align="left"  class="line-i">&nbsp;<img src="[field:global.cfg_templeturl/]/skin/images/ico.gif"/>&nbsp;<a href="[field:arcurl /]" title="标题：[field:fulltitle function='html2text(@me)'/]
+作者：[field:writer /]
+更新：[field:pubdate function='GetDateTimeMK(@me)'/]
+点击：[field:click/]" target="_blank">[field:title /]</a></td></tr>
+			    {/dede:arclist}
+			</table>
+		</div></td>
+      </tr>
+	     {/dede:channelartlist}  
+    </table></td>
+    <td width="401" valign="top"><table width="390" border="0" align="center" cellpadding="0" cellspacing="0">
+       <tr>
+        <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="50" align="center" valign="top">
+				{dede:arclist flag='h' limit='0,1' titlelen='40'}
+				<div class="topTitle">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0" class="line-i">
+					<tr><td align="left"  class="line-i">&nbsp;<a href="[field:arcurl /]" title="标题：[field:fulltitle function='html2text(@me)'/]
+作者：[field:writer /]
+更新：[field:pubdate function='GetDateTimeMK(@me)'/]
+点击：[field:click/]" target="_blank">[field:title /]</a></td></tr>
+					</table></div>
+					{/dede:arclist}
+				</td>
+              </tr>
+            </table></td>
+      </tr>
+      <tr>
+        <td height="230" align="left" valign="top"><div class="newst"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="line-i">
+		   {dede:arclist row=9 titlelen=38 }
+			<tr><td align="left"  class="line-i">&nbsp;<span style="color:#e71e2d;">[<a style="color:#e71e2d;" href="[field:typeurl/]">[field:typename /]</a>]</span>&nbsp;<a href="[field:arcurl /]" title="标题：[field:fulltitle function='html2text(@me)'/]
+作者：[field:writer /]
+更新：[field:pubdate function='GetDateTimeMK(@me)'/]
+点击：[field:click/]" target="_blank">[field:title /]</a></td>
+			<td align="right"  class="line-i"><font color="#999999">[</font><font color="#999999">[field:pubdate function="MyDate('Y-m-d',@me)"/]</font><font color="#999999">]</font></td></tr>
+				{/dede:arclist}
+		</table></div></td>
+      </tr>
+	   {dede:channelartlist typeid='1,10000'} 
+      <tr>
+        <td align="left" class="newsTitle"><a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a></td>
+      </tr>
+      <tr>
+        <td align="left" valign="top"><div class="newst"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="line-i">
+{dede:arclist row=6 titlelen=48 }
+<tr><td align="left"  class="line-i">&nbsp;<img src="[field:global.cfg_templeturl/]/skin/images/ico.gif"/>&nbsp;<a href="[field:arcurl /]" title="标题：[field:fulltitle function='html2text(@me)'/]
+作者：[field:writer /]
+更新：[field:pubdate function='GetDateTimeMK(@me)'/]
+点击：[field:click/]" target="_blank">[field:title /]</a></td>
+<td align="right"  class="line-i"><font color="#999999">[</font><font color="#999999">[field:pubdate function="MyDate('Y-m-d',@me)"/]</font><font color="#999999">]</font></td></tr>
+{/dede:arclist}
+</table></div></td>
+      </tr>
+	 {/dede:channelartlist}  
+    </table></td>
+    <td width="403" valign="top" class="rightBg"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="250"><table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"><tr valign="top"><td align="center">
+<DIV class="column392">
+<DIV class="colPicTop"></DIV>
+<DIV class="fpic">
+{dede:arclist flag='f' row='1'}
+<A id=foclnk href="" target=_blank><IMG id=focpic style="FILTER: RevealTrans ( duration = 1，transition=23 ); VISIBILITY: visible; POSITION: absolute" height=210 alt="" hspace=4 src="[field:litpic/]" width=310 vspace=2></A> 
+<DIV class="" id=fttltxt style="MARGIN-TOP: 212px; FLOAT: left; WIDTH: 318px; TEXT-ALIGN: center"><A href="[field:arcurl/]" target="_blank">[field:title function='html2text(@me)'/]</A></DIV>
+{/dede:arclist}
+<DIV style="MARGIN-LEFT: 318px; WIDTH: 65px">
+{dede:arclist flag='f' row='4'}
+<DIV class="thubpic" id="tmb[field:global name=autoindex runphp='yes']@me=@me-1;[/field:global]" onmouseover="setfoc([field:global name=autoindex runphp='yes']@me=@me-1;[/field:global]);" onmouseout="playit();"><IMG height="42" alt="[field:title function='html2text(@me)'/]" src="[field:litpic/]" width="56" border="0"></DIV>
+{/dede:arclist}
+
+<SCRIPT language=javascript type=text/javascript>
+var picarry = {};
+var lnkarry = {};
+var ttlarry = {};
+{dede:arclist flag='f' row='4'}
+picarry[[field:global name=autoindex runphp='yes']@me=@me-1;[/field:global]]="[field:litpic/]";
+ttlarry[[field:global name=autoindex runphp='yes']@me=@me-1;[/field:global]] = "[field:title function='html2text(@me)'/]";
+lnkarry[[field:global name=autoindex runphp='yes']@me=@me-1;[/field:global]]  = "[field:arcurl/]";
+ttlarry[[field:global name=autoindex runphp='yes']@me=@me-1;[/field:global]] = "[field:title function='html2text(@me)'/]";
+{/dede:arclist}
+</SCRIPT>
+</DIV></DIV></DIV>
+</td>
+</tr></table></td>
+</tr>
+	    {dede:channelartlist typeid='10,10000'} 
+      <tr>
+        <td height="30" class="newsTitle2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="33" align="left"><img src="{dede:global.cfg_templeturl/}/skin/images/title_ico1.gif" width="26" height="30" /></td>
+            <td width="426" align="left" class="yjnews"><a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a></td>
+            <td width="87" align="left"><a href="{dede:field name='typeurl'/}"><img src="{dede:global.cfg_templeturl/}/skin/images/more2.gif" width="56" height="11" border="0" /></a></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+<td align="left" valign="top"><div class="newst">
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+    	<tr> 
+		<td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+		<tr> 
+		<td height="150" valign="top">		
+			<table width="100%" border="0" cellpadding="0" cellspacing="0"  class="line-i">
+		{dede:arclist row=7 titlelen=52 }	
+<tr><td align="left" class="line-i">&nbsp;<img src="[field:global.cfg_templeturl/]/skin/images/ico.gif"/>&nbsp;<a href="[field:arcurl/]" title="标题：[field:fulltitle function='html2text(@me)'/]
+更新：[field:pubdate function='GetDateTimeMK(@me)'/]" target="_blank" onClick="return newpage(this.href);">[field:title /]</a></td>
+<td align="right"><font color="#999999">[</font><font color="#999999">[field:pubdate function="MyDate('Y-m-d',@me)"/]</font><font color="#999999">]</font></td></tr>
+{/dede:arclist}
+</table>
+		</td>
+		</tr>
+	</table></td>
+	</tr>
+</table></td>
+</tr><tr><td colspan="3" align="center" height="5"></td></tr><tr>
+    </tr>
+</table></div></td>
+      </tr>
+		 {/dede:channelartlist}    
+	  
+    </table></td>
+  </tr>
+</table>
+</div>
+
+<div class="mainBox">
+<div style="height:5px;background:#ffffff;"></div>
+<div class="picBox"></div>
+<div class="picCen">
+<div class="picLeft">
+<div class="picBox3">
+{dede:arclist flag='a' limit='0,1' infolen='200' type='image.'}
+<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"><tr valign="top"><td align="center"  class="line-i" ><a href="[field:arcurl/]" title="标题：[field:fulltitle function='html2text(@me)'/]
+作者：[field:writer /]
+更新：[field:pubdate function='GetDateTimeMK(@me)'/]
+点击：[field:click/]" target="_blank"><img src="[field:litpic/]" width="290" height="226" border="0"  alt="" /></a>
+<div style="text-indent:20px;text-align:left;line-height:22px;padding-top:6px;"><a href="[field:arcurl/]" > &nbsp; [field:info/]……</a></div></td></tr></table>
+{/dede:arclist}
+</div>
+</div>
+
+<div class="picRight">
+  {dede:channelartlist typeid='17,18'} 
+<div class="picBox2">
+<div class="picTitle"><span class="right"><a href="{dede:field name='typeurl'/}">更多&lt;&lt;</a></span>{dede:field name='typename'/}</div>
+<div class="picShow">
+<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+<tr valign="top">
+      {dede:arclist titlelen='20' row='4' type='image.'}
+	<td align="center"  class="line-i"><a href="[field:arcurl/]" title="标题：[field:fulltitle function='html2text(@me)'/]
+作者：[field:writer /]
+更新：[field:pubdate function='GetDateTimeMK(@me)'/]
+点击：[field:click/]" target="_blank"><img src="[field:litpic/]" width="124" height="97" border="0" style="margin-right:10px;" alt="" /><br />[field:title /]...</a></td>
+{/dede:arclist}
+</tr></table>
+</div>
+</div>
+ {/dede:channelartlist}    
+</div>
+</div>
+<div class="picBottom"></div>
+</div>
+<!--end picNews-->
+<div class="mainBox">
+<table width="987" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+  <tr>
+    <td width="184" valign="top">
+	<table width="184" border="0" align="center" cellpadding="0" cellspacing="0" class="rightBg">
+      <tr>
+        <td class="leftTitle">本站专题</td>
+      </tr>
+      <tr>
+        <td><table  border="0" cellpadding="0" width="184">
+		
+      <tr>
+        <td align="left" height="65"><a href="/special/arc-136.html"><img src="{dede:global.cfg_templeturl/}/skin/images/1.gif" width="184" height="59" border="0" /></a></td>
+      </tr>
+	  
+      <tr>
+        <td align="left" height="65"><a href="/Article/ShowSpecial.Asp?SpecialID=2"><img src="{dede:global.cfg_templeturl/}/skin/images/2.gif" width="183" height="58" border="0" /></a></td>
+      </tr>
+      <tr>
+        <td align="left" height="65"><a href="/Article/ShowSpecial.Asp?SpecialID=3"><img src="{dede:global.cfg_templeturl/}/skin/images/3.gif" width="183" height="58"  border="0" /></a></td>
+      </tr>
+      <tr>
+        <td align="left" height="65"><a href="/Article/ShowSpecial.Asp?SpecialID=4"><img src="{dede:global.cfg_templeturl/}/skin/images/4.gif" width="183" height="58" border="0" /></a></td>
+      </tr>
+      <tr>
+        <td align="left" height="65"><a href="/Article/ShowSpecial.Asp?SpecialID=5"><img src="{dede:global.cfg_templeturl/}/skin/images/5.gif" width="183" height="55" border="0" /></a></td>
+      </tr>
+	  <tr>
+        <td align="left" height="65"><a href="/Article/ShowSpecial.Asp?SpecialID=1"><img src="{dede:global.cfg_templeturl/}/skin/images/1.gif" width="184" height="59" border="0" /></a></td>
+      </tr>
+      <tr>
+        <td align="left" height="65"><a href="/Article/ShowSpecial.Asp?SpecialID=2"><img src="{dede:global.cfg_templeturl/}/skin/images/2.gif" width="183" height="58" border="0" /></a></td>
+      </tr>
+      <tr>
+        <td align="left" height="65"><a href="/Article/ShowSpecial.Asp?SpecialID=3"><img src="{dede:global.cfg_templeturl/}/skin/images/3.gif" width="183" height="58"  border="0" /></a></td>
+      </tr>
+      <tr>
+        <td align="left" height="65"><a href="/Article/ShowSpecial.Asp?SpecialID=4"><img src="{dede:global.cfg_templeturl/}/skin/images/4.gif" width="183" height="58" border="0" /></a></td>
+      </tr>
+      <tr>
+        <td align="left" height="65"><a href="/Article/ShowSpecial.Asp?SpecialID=5"><img src="{dede:global.cfg_templeturl/}/skin/images/5.gif" width="183" height="55" border="0" /></a></td>
+      </tr>
+	    <tr>
+        <td align="left" height="65"><a href="/Article/ShowSpecial.Asp?SpecialID=5"><img src="{dede:global.cfg_templeturl/}/skin/images/5.gif" width="183" height="55" border="0" /></a></td>
+      </tr>
+    </table></td>
+      </tr>
+    </table></td>
+    <td width="803" valign="top">
+	
+<table width="100%" border="0">
+  <tr>
+    <td align="center" valign="top">
+<div align="center"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"><tr>
+{dede:channelartlist typeid='2,3,4,5,6,7'}	
+<td valign="top" width="50%" align="right">
+<table width="388" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="9%" align="left" class="titleBg"><img src="{dede:global.cfg_templeturl/}/skin/images/titleLeft.gif" width="28" height="33" /></td>
+            <td width="76%" align="left" class="titleBg"><a href="{dede:field name='typeurl'/}" title="{dede:field name='typename'/}">{dede:field name='typename'/}</a></td>
+            <td width="12%" class="titleBg"><a href="{dede:field name='typeurl'/}"><img src="{dede:global.cfg_templeturl/}/skin/images/more.gif" width="42" height="17" align="absbottom" border="0"/></a></td>
+            <td width="3%" align="right" class="titleBg"><img src="{dede:global.cfg_templeturl/}/skin/images/titleRight.gif" width="8" height="33" /></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+<td height="175" class="titleCont"><div class="titlep"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="line-i">
+{dede:arclist titlelen='44' row='7'}
+<tr><td align="left"  class="line-i">&nbsp;<img src="[field:global.cfg_templeturl/]/skin/images/ico.gif"/>&nbsp;<a href="[field:arcurl /]" title="标题：[field:fulltitle function='html2text(@me)'/]
+作者：[field:writer /]
+更新：[field:pubdate function='GetDateTimeMK(@me)'/]
+点击：[field:click/]" target="_blank">[field:title /]</a></td>
+<td align="right"  class="line-i"><font color="#999999">[</font><font color="#999999">[field:pubdate function="MyDate('Y-m-d',@me)"/]</font><font color="#999999">]</font></td></tr>
+      {/dede:arclist}
+</table></div></td>
+      </tr>
+    </table>
+</td>
+{dede:global name='itemindex' runphp='yes'}if(@me%2==0)@me='</tr><tr><td colspan="3" align="center" height="8"></td></tr><tr>';else @me='<td width="5"></td>';{/dede:global}
+ {/dede:channelartlist} 
+</tr><tr><td colspan="3" align="center" height="8"></td></tr>
+</table></div></td>
+  </tr>
+</table>
+
+<table width="100%" border="0">
+  <tr>
+    <td align="center" valign="top"><div style="padding-left:10px;">
+		{dede:myad name='index'/}
+	</div></td>
+  </tr>
+</table>
+	</td>
+  </tr>
+</table>
+<table width="987" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="30" align="left" class="linkName"><img src="{dede:global.cfg_templeturl/}/skin/images/link.gif" width="15" height="16" align="absmiddle" />友情连接</td>
+      </tr>
+      <tr>
+        <td align="left" valign="middle" class="linkBg">
+		<table width="100%" cellSpacing=5>
+		  <tr align="left">
+			<td class="flink">
+			{dede:flink row='10' type='image'} 
+			<li width="88">[field:link /]</li>
+			{/dede:flink}
+		</td>
+		</tr><tr align="center"></tr></table></td>
+      </tr>
+      <tr>
+        <td height="25" class="linkBg"><table width="100%" cellSpacing="5">
+		<tr align="left">
+		<td class="flink">
+			{dede:flink row='10' type='text'} 
+			<li width="88">[field:link /]</li>
+			{/dede:flink}
+		</td>
+		</tr><tr align="center"></tr></table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

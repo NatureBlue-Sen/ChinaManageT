@@ -1,0 +1,8 @@
+{dede:field name='keywords'}粮食局网站建设方案粮食局网站模{/dede:field}
+{dede:field name='description'}粮食局网站建设方案粮食局网站模板免费下载[暂无简介]{/dede:field}
+{dede:field name='title'}粮食局网站建设方案粮食局网站模板免费下载{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='body'}<H2>粮食局网站方案背景</H2><P>为改善服务态度，规范行政行为，加强粮食局网站建设，提高工作效能，增强政府执行力和公信力，粮食局决定全面推行服务承诺制、首问责任制和限时办结制“三项制度”。现结合州粮食局工作实际，提出如下实施意见，请认真贯彻执行。<BR>&nbsp;<WBR>&nbsp;<WBR><B><BR></B>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> 推行“三项制度”，是加强政府自身建设、促进政府依法行政的重要举措，是建设责任型、服务型、效能型政府的重要保障，是全面提高行政机关公务员为人民服务质量和效率的重要机制。粮食局机关各科室一定要从建设活力楚雄、构建和谐高度，充分提高对推行“三项制度”工作的重要性和必要性的认识，增强责任感和使命感，采取多种形式组织科室人员对“三项制度”进行广泛、深入、持久的学习，形成人人熟知“三项制度”，人人遵守“三项制度”，人人执行“三项制度”的良好氛围。</P><P><BR>粮食局网站方案目标任务<BR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> 粮食局机关要通过实施“三项制度”，达到如下目标：<BR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> 一是局机关的作风和面貌有所好转；二是为民办事、为民服务的质量和效率有显著提高；三是局机关内部管理和自身建设得到进一步规范和增强；四是局机关公务员依法行政、诚信管理的能力和水平有较大提高；五是人民群众对州粮食局的满意度有较大提升。<A href="http://liangshi.zf11.com/" target=_blank>粮食局网站模板免费下载</A>&nbsp;<WBR></P><H2>　粮食局网站详细方案</H2><P>一、为了使粮食局网站在发展中不断完善、充实、提高，真正成为传播和反映信息及时、灵敏、准确的优秀网站，不断增强网站的吸引力、影响力和传播力，不断为社会公众提供最丰富、最权威的粮食信息和最快捷的粮食政策和大事报道，服务于粮食经济发展。</P><P>二、信息采集机构<BR>　　成立粮食局网站信息采集管理站.可充分发挥粮食局现有的信息宣传网络系统,在所属单位中由局选用各单位负责宣传工作的人员作为局网站信息工作采集人员,负责报送本单位信息,信息采集工作人员由局宣传部门和网站信息采集管理站管理。<BR>三、信息采集要求<BR>　&nbsp;<WBR> 鼓励粮食局机关干部踊跃向网站提供信息，将信息提供数量和质量</P><P>&nbsp;<WBR></P><H2><A href="http://www.zf11.com/muban.html" target=_blank>粮食局网站模板免费下载地址：</A></H2><P><A href="http://liangshi.zf11.com/" target=_blank><FONT color=#f7060f>四通粮食局网站管理系统、四通粮食局网站源码免费下载地址：<a target=_blank href=http://liangshi.zf11.com/>http://liangshi.zf11.com/</a></FONT></A></P>{/dede:field}
+{dede:field name='litpic'}{/dede:field}

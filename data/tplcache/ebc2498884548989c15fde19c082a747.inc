@@ -1,0 +1,8 @@
+{dede:field name='keywords'}市民、商家多提防高仿真假币,新{/dede:field}
+{dede:field name='description'}市民、商家多提防高仿真假币[暂无简介]{/dede:field}
+{dede:field name='title'}市民、商家多提防高仿真假币{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='body'}<P align=left><FONT class=article>近日，笔者接到热心群众报料称：“1月2日上午，两名中年男子在建设路某商场购买彩色电视机时，用2100元高仿真的百元假币付款后，商家竟然毫无察觉，待商家发现上当后，将假币交给公安机关处理。”于是笔者走访了这间商场相关当事人和公安机关办案民警。</FONT></P><P><FONT class=article>&nbsp;&nbsp;&nbsp; 据商场当事人介绍，当时两名男子选好电视后说要现金付款，并从身上拿出21张百元人民币，他们当时直接把这21张百元人民币放进验钞机清点，奇怪的是验钞机并没有发出任何警报，于是他们就收下了。两名买电视机的男子走后，一位细心的同事突然发现这些钱的编号全部是相同的，他们这才知道上当了，最后将钱交给古塔派出所处理。</FONT></P><P><FONT class=article>&nbsp;&nbsp;&nbsp; 在古塔派出所，笔者见到了这21张所谓的高仿真假币，初看上去和真币没什么太大区别，但拿一张真币放在旁边对比，笔者发现假币颜色明显要深色很多，钱币上很多细节部分都比较模糊，而且钱后面的金属防伪线是印上去的，最明显的特征就是这些百元假币编号基本上都是相同的，放入高灵敏验钞机时，验钞机会发出警报，不过要比正常警报要迟10秒钟左右。负责该案的古塔派出所梁副所长称，目前警方已经介入对该类犯罪的侦查和打击，同时他呼吁，年近岁晚，许多不法分子都想方设法地捞一把，希望广大市民和商家平时多个留个心眼，做事细心些，不要给不法分子任何可乘之机，过一个开开心心、平平安安的新年。（熊小斐、黄卓荣编辑：小婷）</FONT></P>{/dede:field}
+{dede:field name='litpic'}{/dede:field}

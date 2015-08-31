@@ -1,0 +1,1 @@
+<tr><td align="left"  class="line-i">&nbsp;<img src="[field:global.cfg_templeturl/]/skin/images/ico.gif"/>&nbsp;<a href="[field:arcurl /]" title="[field:fulltitle function='html2text(@me)'/]" target="_blank">[field:title /]</a></td></tr>

@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global name='cfg_soft_lang'/}" />
+<title>{dede:global name='cfg_webname'/}_RSS订阅地图</title>
+<link href="{dede:global.cfg_templeturl/}/skin/css/Css0.Css" rel="stylesheet" type="text/css" />
+<link href="/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+</head>
+<body class="mapspage">
+
+{dede:include filename="head.htm"/}
+<!-- /header -->
+
+<div class="w960 clear center mt1" style="background:#ffffff;width:1003px;">
+	<div class="sp-title">
+    <h2>RSS地图</h2>
+    <span class="more">	<a href='{dede:global name='cfg_basehost'/}'>返回首页</a></span>
+    </div>
+
+	<div class="linkbox">
+	{dede:global name='maplist'/}
+	</div>
+
+
+</div>
+{dede:include filename="footer.htm"/}
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templeturl/}/skin/css/Css0.Css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<table width="1002" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="688" valign="top"><div class="mBottom"><table width="662" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><img src="{dede:global.cfg_templeturl/}/skin/images/leftBox_top.gif" width="662" height="9" /></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" background="{dede:global.cfg_templeturl/}/skin/images/leftBox_bg.gif">
+		<table width="639" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="6%" align="center"><img src="{dede:global.cfg_templeturl/}/skin/images/ico1.gif" width="21" height="16" align="absmiddle" /></td>
+            <td width="94%" height="26" align="left" class="cPage">&nbsp;位置：&nbsp; <a href='/'>主页</a> &gt; 专题</td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="{dede:global.cfg_templeturl/}/skin/images/leftBox_line.gif" width="639" height="7" /></td>
+            </tr>
+        </table>
+          <table width="95%"  border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td valign="top">
+			   <div  class="cTop">
+			    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="line-i">
+				{dede:field.note/}
+				</table></div></td>
+            </tr>
+          </table>
+		  <table width="639" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td valign="top"><img src="{dede:global.cfg_templeturl/}/skin/images/leftBox_line.gif" width="639" height="7" /></td>
+            </tr>
+            <tr>
+              <td height="50" align="center" valign="middle" class="cPage">
+			  <div id="showpage" class="showpage">
+				{dede:pagelist listitem="info,index,end,pre,next,pageno,option" listsize="5"/}
+			  </div></td>
+            </tr>
+          </table></td>
+      </tr>
+      <tr>
+        <td><img src="{dede:global.cfg_templeturl/}/skin/images/leftBox_bottom.gif" width="662" height="10" /></td>
+      </tr>
+    </table></div></td>
+    <td width="312" valign="top">
+	
+	<div class="mBottom" id="iDBody2">
+	<table width="299" border="0" align="center" cellpadding="0" cellspacing="0" class="rightBox">
+      <tr>
+        <td height="30" class="rightMenuTop"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="11%" align="center"><img src="{dede:global.cfg_templeturl/}/skin/images/ico2.gif" width="9" height="10" /></td>
+            <td width="89%" class="rightTitle">栏目导航</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="center" background="{dede:global.cfg_templeturl/}/skin/images/rightBox_bg.gif">
+		  {dede:channel type='son'}   
+			<div class="rightMenu"><a href="[field:typeurl/]">[field:typename/]</a></div>
+		 {/dede:channel}	
+		</td>
+      </tr>
+      <tr>
+        <td><img src="{dede:global.cfg_templeturl/}/skin/images/rightBox_bottom.gif" width="299" height="9" /></td>
+      </tr>
+    </table>
+	</div>
+<script type="text/javascript">
+if("{dede:channel type='son'}1{/dede:channel}"=="")
+{
+document.getElementById('iDBody2').style.display = "none";
+}
+</script>  
+	<div class="mBottom">
+	<table width="299" border="0" align="center" cellpadding="0" cellspacing="0" class="rightBox">
+      <tr>
+        <td height="8" ><img src="{dede:global.cfg_templeturl/}/skin/images/rightBox_top.gif" width="299" height="8" /></td>
+      </tr>
+      <tr>
+        <td  align="left" valign="top" background="{dede:global.cfg_templeturl/}/skin/images/rightBox_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="15%" align="center"><img src="{dede:global.cfg_templeturl/}/skin/images/rightSearch.gif" /></td>
+            <td width="85%" align="left">
+		<table border="0" cellpadding="0" cellspacing="0">
+	<form  name="formsearch" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+	<tr>
+	  <td height="28" align="left" >
+	   <input type="hidden" name="kwtype" value="0" />
+	   <input type="text" name="q"size="25"  maxlength="60" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" /><br /><br />
+	   
+		  <select name="searchtype" class="search-option" id="search-option">
+               <option value="title" selected='1'>检索标题</option>
+               <option value="titlekeyword">智能模糊</option>
+           </select>&nbsp;&nbsp;&nbsp;
+	   <input type="submit" name="Submit"  value="搜索" /></td>
+	</tr>
+</form></table>		
+			</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><img src="{dede:global.cfg_templeturl/}/skin/images/rightBox_bottom.gif" width="299" height="9" /></td>
+      </tr>
+    </table>
+	</div>
+	<div class="mBottom"><table width="299" border="0" align="center" cellpadding="0" cellspacing="0" class="rightBox">
+      <tr>
+        <td height="30" class="rightMenuTop"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="11%" align="center"><img src="{dede:global.cfg_templeturl/}/skin/images/ico2.gif" width="9" height="10" /></td>
+            <td width="89%" class="rightTitle">热点导读</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="center" background="{dede:global.cfg_templeturl/}/skin/images/rightBox_bg.gif">
+		<div class="hotnews"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="line-i">
+		 {dede:arclist row=10 orderby=click titlelen='40' typeid='all'}
+<tr><td align="left"  class="line-i">&nbsp;<a href="[field:arcurl/]"
+  title="标题：[field:fulltitle function='html2text(@me)'/]
+作者：[field:writer /]
+更新：[field:pubdate function='GetDateTimeMK(@me)'/]
+点击：[field:click/]" target="_blank">[field:title/]</a></td></tr>
+      {/dede:arclist}
+</table></div></td>
+      </tr>
+      <tr>
+        <td><img src="{dede:global.cfg_templeturl/}/skin/images/rightBox_bottom.gif" width="299" height="9" /></td>
+      </tr>
+    </table></div>
+	</td>
+  </tr>
+</table>
+{dede:include filename="footer.htm"/}
+</body>
+</html>
